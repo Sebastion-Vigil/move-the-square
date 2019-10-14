@@ -1,0 +1,37 @@
+.mario-strip {
+  height: 100%;
+  width: 800%;
+  max-height: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: -1;
+}
+
+.mario-section {
+  height: 100%;
+  width: 33%;
+  color: magenta;
+}
+
+.first {
+  background-image: url('../images/firstMario.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second {
+  background-image: url('../images/secondMario.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.third {
+  background-image: url('../images/thirdMario.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

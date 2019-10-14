@@ -1,0 +1,14 @@
+.square {
+    width: 7%;
+    height: 14%;
+    border-radius: 50%;
+    border: 3px solid purple;
+    padding-top: .5%;
+    /* border: 0.0122rem solid white; */
+    position: fixed;
+    background-image: url('../images/isabelaColumpio.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

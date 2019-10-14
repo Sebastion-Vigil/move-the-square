@@ -1,0 +1,12 @@
+html, body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    /* background-color: black; */
+}
+
+/* this link will help with goal of ensuring landscape layout in mobile view
+/* https://stackoverflow.com/questions/5735467/how-to-detect-the-device-orientation-using-css-media-queries */

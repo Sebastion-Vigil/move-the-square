@@ -1,0 +1,123 @@
+.controller {
+  width: 90%;
+  height: 35%;
+  position: fixed;
+  top: 65%;
+  left: 5%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+
+.start-button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: darkred;
+  opacity: .7;
+  border: 1px solid black;
+  position: fixed;
+  top: 75%;
+  left: 47%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-button:active {
+  background-color: black;
+  color: red;
+  border: 2px solid white;
+}
+
+.d-pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    border: .100rem solid midnightblue;
+    background-color: black;
+    opacity: .7;
+    position: fixed;
+    bottom: 1%;
+}
+
+.d-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 33%;
+}
+
+.arrow-column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 33%;
+}
+
+.left {
+  justify-content: center;
+}
+
+.center {
+  justify-content: space-between;
+}
+
+.right {
+  justify-content: center;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 1.4rem solid transparent;
+  border-bottom: 1.4rem solid transparent;
+  border-right: 1.4rem solid white;
+}
+
+.arrow-left:active {
+  filter: brightness(50%);
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 1.4rem solid transparent;
+  border-bottom: 1.4rem solid transparent;
+  border-left: 1.4rem solid white;
+}
+
+.arrow-right:active {
+  filter: brightness(50%);
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 1.4rem solid transparent;
+  border-right: 1.4rem solid transparent;
+  border-bottom: 1.4rem solid white;
+}
+
+.arrow-up:active {
+  filter: brightness(50%);
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 1.4rem solid transparent;
+  border-right: 1.4rem solid transparent;
+  border-top: 1.4rem solid white;
+}
+
+.arrow-down:active {
+  filter: brightness(50%);
+}
+
