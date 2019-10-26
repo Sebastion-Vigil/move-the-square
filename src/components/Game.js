@@ -43,6 +43,8 @@ class Game extends React.Component {
 	toggleGame = () => {
 		console.log("Square pos: ", this.state.squarePosition);
 		console.log("Game pos: ", this.state.gamePosition);
+		console.log(window.innerWidth);
+		console.log(window.innerHeight);
 		let gameState = this.state.active;
 		if (gameState) {
 			gameState = false;
