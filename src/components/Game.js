@@ -1,11 +1,8 @@
 import React from 'react';
 
 import Square from './Square.js';
-// import TestStrip from './TestStrip.js';
-// import MarioStrip from './MarioStrip.js';
-import Space from './Space.js';
 import GamePad from './GamePad.js';
-
+import GameStrip from './GameStrip.js';
 import '../css/Game.css';
 
 class Game extends React.Component {
@@ -69,9 +66,7 @@ class Game extends React.Component {
 	render() {
 		return (
 			<div className="game" style={this.state.gamePosition}>
-				{/* <TestStrip />
-				<MarioStrip /> */}
-				<Space />
+				<GameStrip />
 				<Square style={this.state.squarePosition} />
 				<GamePad
 				    SquarePosition={this.state.squarePosition}
